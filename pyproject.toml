@@ -19,7 +19,7 @@ dependencies = ["pyserial"
 requires-python = ">=3.11"
 
 [project.optional-dependencies]
-dev = ["black", "bumpver", "pytest", "mypy", "types-requests"]
+dev = ["black", "bumpver", "pytest", "mypy"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
