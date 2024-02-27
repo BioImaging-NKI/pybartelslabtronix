@@ -14,9 +14,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = ["Bartels Mikrotechnik", "labtronix", "micropump"]
-dependencies = ["pyserial"
-]
-requires-python = ">=3.11"
+dependencies = ["pyserial"]
+requires-python = ">=3.10"
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "pytest", "mypy"]
